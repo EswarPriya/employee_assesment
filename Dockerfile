@@ -7,5 +7,5 @@ RUN pip install -r requirements.txt
 ADD . /code/
 WORKDIR /code
 # to use queue with the server uncomment this
-ADD ./prestart.sh /code/
-RUN bash -c 'code/prestart.sh'
+# ADD prestart.sh /code/prestart.sh
+# RUN prestart.sh
